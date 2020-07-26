@@ -1,0 +1,3 @@
+show inv
+show version
+show ip int brief
