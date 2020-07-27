@@ -39,11 +39,11 @@ def get_inputs():
     while True:
         port = input("SSH port (leave blank for default): ")
         try:
-            int(port)
             if port == "":
                 port = "22"
                 break
             else:
+                int(port)
                 break
         except ValueError:
             print("Invalid input! Enter a valid port number.")
